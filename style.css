@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Recipe Categories */
+.recipe-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.category {
+    flex: 1 1 30%;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 200px;  /* Fixed height */
+    object-fit: cover; /* Ensures uniform size while maintaining aspect ratio */
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.category p {
+    color: #555;
+    font-size: 1.1em;
+}
